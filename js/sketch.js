@@ -6,7 +6,7 @@ createCanvas(480, 720, document.getElementById('canvas-ar'))
 pixelDensity(1)
     
     // 加载视频文件，确保视频在同一目录下
-    vid = createVideo('Poster.mp4', vidLoad); 
+    vid = createVideo('https://zefengd.s3.us-east-2.amazonaws.com/Poster.mp4', vidLoad); 
     vid.size(480, 720); 
     vid.hide(); // 如果不需要在canvas外显示视频控件
 }
